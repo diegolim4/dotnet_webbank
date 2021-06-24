@@ -50,6 +50,17 @@ namespace WebBank
             }
         }
         
+        // Método para sobreescrever a classe mãe exibir os dados
+
+        public override string ToString()
+        {
+            string show = "";
+            show += "Tipo de Conta: " + this.AccountType + " | ";
+            show += "Nome: " + this.Name + " | ";
+            show += "Saldo: " + this.Balance + " | ";
+            show += "Crédito: " + this.Credit + " | ";
+            return show;
+        }
 
     }
 }
