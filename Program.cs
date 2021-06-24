@@ -6,7 +6,8 @@ namespace WebBank
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Account myAccount = new Account(AccountType.PessoaFisica, 0, 0, "Diego Lima");
+            Console.WriteLine(myAccount.ToString());
         }
     }
 }

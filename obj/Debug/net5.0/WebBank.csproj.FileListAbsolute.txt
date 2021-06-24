@@ -1,0 +1,16 @@
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.exe
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.deps.json
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.runtimeconfig.json
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.runtimeconfig.dev.json
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.dll
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\ref\WebBank.dll
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\bin\Debug\net5.0\WebBank.pdb
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.csprojAssemblyReference.cache
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.AssemblyInfoInputs.cache
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.AssemblyInfo.cs
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.csproj.CoreCompileInputs.cache
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.dll
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\ref\WebBank.dll
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.pdb
+C:\Users\Diego\BootcampGFT\Project_markConsulta\WebBank\obj\Debug\net5.0\WebBank.genruntimeconfig.cache
