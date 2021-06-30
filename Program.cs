@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WebBank
 {
     class Program
     {
+        static List<Account> listContas = new List<Account>();
         static void Main(string[] args)
         {
             string optionUser = OptionUser();
@@ -13,19 +15,19 @@ namespace WebBank
                 switch (optionUser)
                 {
                     case "1":
-                        ListarContas();
+                        //ListarContas();
                         break;
                     case "2":
-                        InserirContas();
+                        //InserirContas();
                         break;
                     case "3":
-                        TranferirContas();
+                        //TranferirContas();
                         break;
                     case "4":
-                        Sacar();
+                        //Sacar();
                         break;
                     case "5":
-                        Depositar();
+                        //Depositar();
                         break;
                     case "C":
                         Console.Clear();
