@@ -18,7 +18,7 @@ namespace WebBank
                         //ListarContas();
                         break;
                     case "2":
-                        //InserirContas();
+                        InserirContas();
                         break;
                     case "3":
                         //TranferirContas();
@@ -33,12 +33,35 @@ namespace WebBank
                         Console.Clear();
                         break;
                     default:
-                        throw new ArgumentOutOfRangeException()
+                        throw new ArgumentOutOfRangeException();
                 }
                 optionUser = OptionUser();
             }
             Console.WriteLine("Obrigado por utilizar nosso serviços");
             Console.ReadLine();
+        }
+
+        private static void InserirContas()
+        {
+            Console.WriteLine("Inserir nova conta");
+
+			Console.Write("Digite 1 para Conta Fisica ou 2 para Juridica: ");
+			int entradaTipoConta = int.Parse(Console.ReadLine());
+
+			Console.Write("Digite o Nome do Cliente: ");
+			string entradaNome = Console.ReadLine();
+
+			Console.Write("Digite o saldo inicial: ");
+			double entradaSaldo = double.Parse(Console.ReadLine());
+
+			Console.Write("Digite o crédito: ");
+			double entradaCredito = double.Parse(Console.ReadLine());
+
+			Account newAccount = new Account(accountType: (AccountType)entradaTipoConta,
+										balance: entradaSaldo,
+										credit: entradaCredito,
+										name: entradaNome);
+            listContas.Add(newAccount);                            
         }
 
         private static string OptionUser()
