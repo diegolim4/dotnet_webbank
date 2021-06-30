@@ -15,7 +15,7 @@ namespace WebBank
                 switch (optionUser)
                 {
                     case "1":
-                        //ListarContas();
+                        ListarContas();
                         break;
                     case "2":
                         InserirContas();
@@ -67,8 +67,8 @@ namespace WebBank
         private static string OptionUser()
         {
             Console.WriteLine();
-            Console.WriteLine("Seja bem vindo ao my bank");
-            Console.WriteLine("Informe a opção desejada: ");
+            Console.WriteLine("Seja bem vindo ao My Bank");
+            Console.WriteLine("Informe a Opção Desejada: ");
 
             Console.WriteLine("1 - Listar Contas");
             Console.WriteLine("2 - Inserir Nova Conta");
@@ -79,9 +79,26 @@ namespace WebBank
             Console.WriteLine("X- Sair");
 
             string OptionUser = Console.ReadLine().ToUpper();
-            Console.WriteLine();
+            Console.WriteLine("________________________");
             return OptionUser;
         }
 
+        private static void ListarContas()
+		{
+			Console.WriteLine("Listar contas");
+
+			if (listContas.Count == 0)
+			{
+				Console.WriteLine("Nenhuma conta cadastrada.");
+				return;
+			}
+
+			for (int i = 0; i < listContas.Count; i++)
+			{
+				Account account = listContas[i];
+				Console.Write("#{0} - ", i);
+				Console.WriteLine(account);
+			}
+		}
     }
 }
