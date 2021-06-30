@@ -116,7 +116,11 @@ namespace WebBank
             Console.Write("Digite o valor a ser transferido: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
 
-            listContas[indiceContaOrigem].Transfer(valorTransferencia, listContas[indiceContaDestino]);
+            if(indiceContaDestino == indiceContaOrigem){
+                Console.WriteLine("A conta de destino não pode ser a mesma de origem!");
+            }else{
+                listContas[indiceContaOrigem].Transfer(valorTransferencia, listContas[indiceContaDestino]);
+            }            
         }
 
         private static void ListarContas()
